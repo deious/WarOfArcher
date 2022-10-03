@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+  m_Name: elsha_SkeletonData
+  m_EditorClassIdentifier: 
+  atlasAssets:
+  - {fileID: 11400000, guid: 3b695a42c75d5fa43a40353cd48836f1, type: 2}
+  scale: 0.0015
+  skeletonJSON: {fileID: 4900000, guid: 07badcf78f36cd64ab4be2cc1423ec29, type: 3}
+  isUpgradingBlendModeMaterials: 0
+  blendModeMaterials:
+    requiresBlendModeMaterials: 1
+    applyAdditiveMaterial: 1
+    additiveMaterials:
+    - pageName: elsha.png
+      material: {fileID: 2100000, guid: 7bcfcdb4b102e274a869ba0f9faf1414, type: 2}
+    multiplyMaterials:
+    - pageName: elsha.png
+      material: {fileID: 2100000, guid: 70d6a7142ff89b34a9753cc70b03260f, type: 2}
+    screenMaterials: []
+  skeletonDataModifiers: []
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0.2
+  controller: {fileID: 9100000, guid: c42b0f1def235ba40934c877983c8354, type: 2}
